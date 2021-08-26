@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "type": "node",
+        "protocol": "inspector",
+        "request": "launch",
+        "name": "LAUCH - TEST",
+        "program": "${workspaceRoot}/node_modules/jest/bin/jest.js",
+        "args": [
+            "-i",
+        ],
+        "console": "integratedTerminal",
+        "cwd": "${workspaceRoot}"
+    }]
+}

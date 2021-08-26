@@ -1,0 +1,15 @@
+{
+  "name": "testiculo",
+  "version": "1.0.0",
+  "description": "Simple example of test debug",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "debug": "node --debug-brk --inspect ./node_modules/.bin/jest -i"
+  },
+  "author": "ME",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
